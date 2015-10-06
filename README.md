@@ -1,6 +1,6 @@
 # NavigationHeaderResizable
 
-NavigationHeaderResizable is a viewController template which contains an animatión of a header compression.
+NavigationHeaderResizable is a viewController template which contains an animation of a header compression.
 
 ## Demo
 
