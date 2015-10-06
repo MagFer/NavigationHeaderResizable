@@ -40,7 +40,7 @@
 
 - (void)loadStyles{
     _ctCanvasScrollTop.constant = 0;
-    _canvasScrollView.contentInset = UIEdgeInsetsMake(kNavigationHeaderMaxHeight-20, 0, 0, 0);
+    _canvasScrollView.contentInset = UIEdgeInsetsMake(kNavigationHeaderMaxHeight-[[UIApplication sharedApplication] statusBarFrame].size.height, 0, 0, 0);
     _viewSeparator.alpha = 0;
 }
 
